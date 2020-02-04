@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+.wrapper-header  {
+    height: auto;
+    padding: 30px;
+    background: #010f1a;
+    color: #fff;
+    box-shadow: 0 2px 5px -2px grey;
+}
+
+body{
+    width: 960px;
+    margin: auto;
+    height: auto;
+}

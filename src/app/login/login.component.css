@@ -1,0 +1,46 @@
+.acessar-conta {
+    position: relative;
+    top: 10px;
+    background-color: honeydew;
+    border: 0;
+    color: black;
+    text-align: center;
+}
+
+.btn-home-cadastro-clientes{
+    position: relative;
+    top: 10px;
+    background-color: honeydew;
+    border: 0;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .wrapper-header {
+        height: 15vh;
+    }
+
+    .menu-header li {
+        list-style: none;
+        display: inline;
+        position: relative;
+        margin: 10px;
+        top: 30px;
+        font-size: 18px;
+    }
+    
+}
+.form-row.align-items-center {
+    height: 380px;
+}
+.form-control{
+    width: fit-content;
+}
+.fundo{
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding: 20px;
+    margin: 200px auto;
+}

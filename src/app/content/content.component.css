@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
+
+.wrapper-content {
+    width: 960px;
+}
+
+.box-tile {
+    width: 960px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.box-img {
+    width: 960px;
+    position: relative;
+    top: 30px;
+    bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.wrapper-content h1 {
+    font-size: 40px;
+    color: black;
+    position: relative;
+    left: 45px;
+	text-shadow: 2px 2px #333;
+    font-family:Times New Roman !important;
+    
+}
+
+.tag {
+	font-size: 60px;
+    color: chocolate;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    bottom: -0px;
+	text-shadow: 2px 2px #333;
+}
+
+.btn-home-cadastro-clientes {
+    position: absolute !important;
+    top: 390px;
+    padding: 20px;
+    font-size: 25px;
+    background: rgb(63, 30, 30);
+    color: #fff;
+    border: 2px solid;
+}
+

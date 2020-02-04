@@ -1,0 +1,38 @@
+.box-cadastro {
+    width: 960px;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+    border:2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+.cadastro {
+    padding: 10px;
+    border: none;
+    border-left: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-radius: 0;
+    outline: none;
+    height: 50px;
+}
+
+.btn-ca {
+    width: 120px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    right: -650px;
+    background-color:black;
+    /* font-weight: bold; */
+    color: honeydew;
+}
+
+h3{
+    font-family: 'Times New Roman';
+    margin-top: 10px;
+    font-weight: bold;
+}
