@@ -1,6 +1,26 @@
 .wrapper-content {
-    width: 100vw;
-    height: 70vh;
-    z-index: -9999;
-    top: -60px;
+    width: 960px;
+    height: 500px;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid red;
+    
+}
+
+
+.cad-concluido{
+    position: relative;
+    background-color: black;
+    color: honeydew;
+    text-align: center;
+}
+
+.fundo{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 2px solid black;
 }

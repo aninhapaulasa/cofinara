@@ -1,6 +1,23 @@
 .wrapper-content {
-    width: 100vw;
-    height: 70vh;
-    z-index: -9999;
-    top: -60px;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 2px solid black;
 } 
+.acesso-negado{
+    font-size: 20px ;
+    font-family: 'Times New Roman';
+}
+
+.btn-cad{
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    left: 85px;
+    background-color: black;
+    border: 0;
+    color: honeydew;
+    text-align: center;
+}

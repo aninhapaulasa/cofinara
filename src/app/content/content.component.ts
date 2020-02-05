@@ -13,7 +13,7 @@ export class ContentComponent implements OnInit {
   ngOnInit() {
     const options = {
       stringsElement: '#typed-strings',
-      strings: ['Bem Vindo ao A-A', 'Escolha o que melhor combine com você', 'A-A'],
+      strings: ['Bem Vindo ao A-A', 'Sinta-se à vontade', 'A-A'],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 200,

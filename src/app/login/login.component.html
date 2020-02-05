@@ -1,38 +1,10 @@
-<!--   <form [formGroup]="formLogin">
-    <div class="form-row align-items-center">
-      <div class="col-auto my-1">
-        <div class="form-check">
-          <label class="form-check-label">
-            <b>Acesse</b> sua conta
-          </label>
-          <input 
-          type="text" 
-          class="form-control"
-          formControlName="cpf"
-          placeholder="Digite seu CPF"
-          (keypress)="onlynumber($event)"
-          maxlength=11>
-        </div>
-      </div>
-      <div class="col-auto my-1">
-        <button type="submit" class="btn btn-primary acessar-conta" (click)="login()">Acessar</button>
-      </div>
-      <div>
-        <button class="btn btn-home-cadastro-clientes" (click)="gotoCadastroClientes()">Crie sua conta</button>
-      </div>
-    </div>
 
-  </form> -->
-<div align="center">
-  <label class="form-check-label">Acesse sua conta</label>
-</div>
 <div class="col-md-12 fundo" align="center"> 
-  <input type="text" class="form-control" formControlName="cpf" placeholder="Digite seu CPF"
-          (keypress)="onlynumber($event)" maxlength=11>
-  <button type="submit" class="btn btn-primary acessar-conta" (click)="login()" >Acessar</button>
+  <label class="form-check-label">Acesse sua conta</label>
+  <!-- <input type="text" class="form-control" formControlName="cpf" placeholder="Digite seu CPF"
+          (keypress)="onlynumber($event)" maxlength=11> -->
+  
+  <input class="form-control" type="text" name="cpf" size="14" maxlength="14" placeholder="Digite seu CPF">
+ <a href="../home-logada/"><button type="submit" class="btn btn-primary acessar-conta" >Acessar</button></a>
       
 </div>
-
-
-<!--  <button class="btn btn-primary" style="margin:10px;">ACESSO ADMINITRADOR</button>
-  <button class="btn btn-primary" style="margin:10px;">ACESSO CLIENTE</button> -->

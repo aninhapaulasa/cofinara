@@ -9,7 +9,6 @@
         <a class="a-link" href="#######"><li>CLIENTE</li></a>
       </ul>
     </div>
-
     <div class="col-xs-12 col-md-4">
      <!--  <div class="position-login">
         <app-login></app-login>
@@ -19,10 +18,14 @@
       </div> -->
       <table>
 				<tr id="deco">
-					<td><button type="submit" (click)="gotoCadastroClientes()">Inscreva-se</button></td>
-					<td><button type="submit" (click)='Login()'>Login</button></td>
-				</tr>
-			</table>
+					<td><a href="../cadastro-clientes/">Inscreva-se</a></td>
+          <td><a href="../login/">Login</a>
+      </table>
+      <div class="dv-search">
+        <a href="../cadastro-concluido/"><button class="ico-search"> </button></a>
+        <input class="in-search" type="text" placeholder="Pesquisar">
+      </div>
+      
     </div>
   </div>
 </nav>

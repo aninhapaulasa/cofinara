@@ -1,18 +1,17 @@
 .wrapper-footer{
     width: 960px;
     position: relative;
-    top: 50px;
 }
 
 .topicos {
     background: #000;
     color: rgba(255, 255, 255, 0.6) !important;
     padding: 50px;
-    text-align: center;
+    /* text-align: center */;
 }
 
 .topicos h6 {
-    text-align: center;
+    /* text-align: center; */
     color: #fff;
 }
 
@@ -28,4 +27,14 @@
 
 .rodape p {
     padding-top: 8px;
+}
+
+.img-footer{
+    width: 150px;
+}
+.img-fac{
+    width: 50px;
+}
+.img-aa{
+    width: 25px;
 }

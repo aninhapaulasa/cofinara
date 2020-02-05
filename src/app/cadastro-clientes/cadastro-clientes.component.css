@@ -9,10 +9,10 @@
 }
 
 .cadastro {
-    padding: 10px;
+    width: 400px;
+    height: 35px;
     border: none;
-    border-left: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid black;
     border-radius: 0;
     outline: none;
     height: 50px;
@@ -25,9 +25,8 @@
     margin-bottom: 20px;
     padding: 10px;
     position: relative;
-    right: -650px;
+    right: -150px;
     background-color:black;
-    /* font-weight: bold; */
     color: honeydew;
 }
 
@@ -36,3 +35,7 @@ h3{
     margin-top: 10px;
     font-weight: bold;
 }
+
+
+
+
