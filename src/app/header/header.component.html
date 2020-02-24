@@ -1,31 +1,69 @@
+<div>
+  <nav class="navbar navbar-expand-lg navbar ">
+    <img class="images" src="../../assets/images/icon-home.png" alt="">
+    <a class="navbar-brand" href="#">STAR AA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<nav class="wrapper-header">
-  <div class="row">
-    <div class="col-xs-12 col-md-8">
-      <ul class="menu-header">
-        <img class="logo-img"  align="center" src="../../assets/images/aaaa-a.jpg">
-        <a class="a-link" href="http://localhost:4200/"><li>INICIO</li></a>
-        <a class="a-link" href="#######"><li>PRODUTOS</li></a>
-        <a class="a-link" href="#######"><li>CLIENTE</li></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Perfil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Serviços
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbardropdown">
+            <a class="dropdown-item" href="#">Pratocolo</a>
+            <a class="dropdown-item" href="#">Nova matricula</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Comprovante de matricula</a>
+          </div>
+        </li>
       </ul>
-    </div>
-    <div class="col-xs-12 col-md-4">
-     <!--  <div class="position-login">
-        <app-login></app-login>
-      </div> -->
-      <!-- <div>
-        <button class="btn-login" type="submit" name="login" onclick="navigator('../login')">Login</button>
-      </div> -->
-      <table>
-				<tr id="deco">
-					<td><a href="../cadastro-clientes/">Inscreva-se</a></td>
-          <td><a href="../login/">Login</a>
-      </table>
-      <div class="dv-search">
-        <a href="../cadastro-concluido/"><button class="ico-search"> </button></a>
-        <input class="in-search" type="text" placeholder="Pesquisar">
+      <ul class="nav navbar-nav navbar-right navbar-nav">
+        <table>
+          <tr>
+            <td><button class="btn btn-outline-dark" (click)="gotoCadastroClientes()"> sign up</button></td>
+            <td><button class="btn btn-outline-dark" ata-nome="ModalLogin" data-toggle="modal"
+                data-target="#conteudoModal">Login</button></td>
+          </tr>
+        </table>
+      </ul>
+      <div id="conteudoModal" class="modal modal-fade ">
+        <div class="modal-dialog modal-dialog-centered ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal" aria-label="fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="box-cadastro">
+                  <label class="form-check-label" style="text-align: center;">Acesse sua conta</label>
+                  <div class="col-md-12 fundo">                    
+                    <input class="form-control" type="text" name="cpf" size="14" maxlength="14"
+                      placeholder="Digite seu CPF">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <a href="../home-logada/"><button type="submit"
+                class="btn btn-primary acessar-conta">Acessar</button></a>
+            </div>
+          </div>
+        </div>
       </div>
-      
     </div>
-  </div>
-</nav>
+  </nav>
+</div>

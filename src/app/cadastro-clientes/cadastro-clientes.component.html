@@ -1,5 +1,5 @@
-<div class="container" align="center">
-  <div class="row box-cadastro" >
+<div align="center">
+  <div class="row box-cadastro">
     <div class="col-12">
       <h3 class="text-center">Você está a um passo de criar sua conta</h3>
       <form class="mt-5" (ngSubmit)='cadastro()' [formGroup]='formCadastro'>
@@ -7,7 +7,7 @@
           <input type="text" class="form-control cadastro" placeholder="Nome" formControlName='nome'>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control cadastro" placeholder="CPF" formControlName='cpf'  maxlength=11>
+          <input type="text" class="form-control cadastro" placeholder="CPF" formControlName='cpf' maxlength=11>
         </div>
         <div class="form-group">
           <input type="email" class="form-control cadastro" placeholder="E-mail" formControlName='email'>
