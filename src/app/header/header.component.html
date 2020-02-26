@@ -1,7 +1,7 @@
 <div>
   <nav class="navbar navbar-expand-lg navbar ">
     <img class="images" src="../../assets/images/icon-home.png" alt="">
-    <a class="navbar-brand" href="#">STAR AA</a>
+    <a class="navbar-brand" href="#">A-A</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
       aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,14 +17,24 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Categorias</a>
+          <div class="dropdown-menu" aria-labelledby="navbardropdown">
+            <a class="dropdown-item" href="#">varejo</a>
+            <a class="dropdown-item" href="#">Bebidas</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">carnes</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Serviços
           </a>
           <div class="dropdown-menu" aria-labelledby="navbardropdown">
-            <a class="dropdown-item" href="#">Pratocolo</a>
-            <a class="dropdown-item" href="#">Nova matricula</a>
+            <a class="dropdown-item" href="#">Protocolo</a>
+            <a class="dropdown-item" href="#">Nova compra</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Comprovante de matricula</a>
+            <a class="dropdown-item" href="#">Comprovante de compra</a>
           </div>
         </li>
       </ul>
@@ -33,37 +43,10 @@
           <tr>
             <td><button class="btn btn-outline-dark" (click)="gotoCadastroClientes()"> sign up</button></td>
             <td><button class="btn btn-outline-dark" ata-nome="ModalLogin" data-toggle="modal"
-                data-target="#conteudoModal">Login</button></td>
+                data-target="#conteudoModal">sign in</button></td>
           </tr>
         </table>
       </ul>
-      <div id="conteudoModal" class="modal modal-fade ">
-        <div class="modal-dialog modal-dialog-centered ">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button class="close" data-dismiss="modal" aria-label="fechar">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="row">
-                <div class="box-cadastro">
-                  <label class="form-check-label" style="text-align: center;">Acesse sua conta</label>
-                  <div class="col-md-12 fundo">                    
-                    <input class="form-control" type="text" name="cpf" size="14" maxlength="14"
-                      placeholder="Digite seu CPF">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-              <a href="../home-logada/"><button type="submit"
-                class="btn btn-primary acessar-conta">Acessar</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </nav>
 </div>

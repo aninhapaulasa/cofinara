@@ -27,7 +27,6 @@ export class HeaderComponent implements OnInit {
     this.formLogin = this.fb.group({
       cpf: ['']
     });
-
   }
   // regexp
   onlynumber(evt) {

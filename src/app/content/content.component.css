@@ -1,36 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
 
-.cont-bo{
-    position: relative;
-    left:150px;
-    width: 600px;
-    margin-top: 10px;
-}
-
 .box-tile {
-    height: 70px;
+    height: 100px;
     position: relative;
     margin: 10px;
 
-}
-
-.box-meio {
-    width: 960px;
-    height: auto;
-    margin-top: 14px;
-    margin-bottom: 10px;
-    position: relative;
-    border-bottom: 2px solid black;
-    /* border-top:2px solid black; */
 }
 
 h1 {
     font-size: 40px;
     color: black;
     position: relative;
+    top: 10px;
     left: 45px;
 	text-shadow: 2px 2px #333;
     font-family:Times New Roman !important;
+    height: 70px;
 }
 
 .tag {
@@ -41,22 +26,18 @@ h1 {
     left: 10px;
     top: -15px;
     bottom: -0px;
-	text-shadow: 2px 2px #333;
+    text-shadow: 2px 2px #333;
+    
 }
 
-.btn-home-cadastro-clientes {
-    position: absolute !important;
-    top: 390px;
-    padding: 20px;
-    font-size: 25px;
-    background: rgb(63, 30, 30);
-    color: #fff;
-    border: 2px solid;
+.left-menu{
+    width:180px ;
+    
 }
-
-.pos-text{
-    text-align: center;
+.btn{
+    margin: 5px;
     position: relative;
-    top: 5px;
-    font-weight: bold;
+    align-items: center;
+    width: 150px;
+    background-color: white;
 }

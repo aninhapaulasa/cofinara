@@ -31,5 +31,5 @@ export class ContentComponent implements OnInit {
   gotoCadastroClientes() {
     this.router.navigate(['cadastro-clientes']);
    }
-   
+
 }

@@ -5,18 +5,11 @@
 .btn{
     margin: 5px;;
 }
-.images{
-    margin: 10px;
-    left: -55px;
-    top: 5px;
-    width: 50px;
-}
 .box-cadastro {
     position: relative;
     left: 50px;
     margin-top: 10px;
-    margin-bottom: 10px;;
-
+    margin-bottom: 10px;
 }
 
 .cadastro {
@@ -27,6 +20,10 @@
     border-radius: 0;
     outline: none;
     height: 50px;
+}
+
+.nav-item{
+    color: black;
 }
 /* @import '../../styles.css';
 
