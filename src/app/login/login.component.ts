@@ -40,6 +40,7 @@ export class LoginComponent implements OnInit {
       }
     }
   }
+
   login() {
     this.getCadastro = JSON.parse(localStorage.getItem('cadastro'));
     const cpfPersistido = this.getCadastro['cpf'];
@@ -62,6 +63,10 @@ export class LoginComponent implements OnInit {
   }
   gotoCadastroClientes() {
     this.router.navigate(['cadastro-clientes']);
+   }
+
+   gotoLogada() {
+    this.router.navigate(['home-logada']);
    }
 
 }

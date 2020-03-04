@@ -1,11 +1,7 @@
-.acessar-conta {
+.btn-outline-dark {
     position: relative;
-    top: 50px;
+    top: 80px;
     left: 85px;
-    background-color: black;
-    border: 0;
-    color: honeydew;
-    text-align: center;
 }
 
 .btn-home-cadastro-clientes{
@@ -38,27 +34,28 @@
 .form-control{
     width: 250px;
     height: 30px;
-    padding: 10px;
+    margin: 20px;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     border-radius: 0;
     outline: none;
     position: relative;
-    top: 30px;
+    top: 40px;
     
 }
 .fundo{
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 380px;
     padding: 20px;
     margin: 50px auto;
-    border: 2px solid black;
+    box-shadow: 3px 5px 3px rgb(179, 174, 174);
+    border-left: 1px solid rgb(179, 177, 177);
+    border-top: 1px solid rgb(179, 177, 177);
 }
 
 .form-check-label{
     font-family: 'Times New Roman';
     font-size: 20px;
-    position: relative;
-    bottom: 10px;
     font-weight: bold;
+    margin-top: 15px;
 }

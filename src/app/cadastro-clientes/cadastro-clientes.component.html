@@ -7,20 +7,26 @@
           <input type="text" class="form-control cadastro" placeholder="Nome" formControlName='nome'>
         </div>
         <div class="form-group">
-          <input type="text" class="form-control cadastro" placeholder="CPF" formControlName='cpf' maxlength=11>
+          <input type="text" class="form-control cadastro" placeholder="CPF" formControlName='cpf' maxlength="14" >
+        </div>
+        <div class="form-group">
+          <input type="date" class="form-control cadastro" placeholder="Data Nascimento" formControlName='dtNscto' maxlength=10>
         </div>
         <div class="form-group">
           <input type="email" class="form-control cadastro" placeholder="E-mail" formControlName='email'>
         </div>
+        
         <div class="form-group">
-          <input type="tel" class="form-control cadastro" placeholder="Telefone" formControlName='telefone'>
+          <input type="tel" class="form-control cadastro" placeholder="Telefone" formControlName='telefone'
+            maxlength="15">
         </div>
         <div class="form-group">
           <input type="text" class="form-control cadastro" placeholder="Endereço" formControlName='endereco'>
         </div>
-        <button type="submit" class="btn btn-outline-dark">Cadastrar</button>
+        <button type="submit" class="btn btn-outline-dark" >Cadastrar</button>
         <button type="button" class="btn btn-outline-dark" onclick="history.back(-1)">Cancelar</button>
-      </form>
+        <!-- <img src="../../../node_modules/jquery-mask-plugin/dist/jquery.mask.min.js" alt="">-->
+      </form> 
     </div>
   </div>
 </div>

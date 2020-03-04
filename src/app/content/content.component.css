@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Crete+Round|Poppins');
 
+.meio{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 500px;
+}
+img{
+    height: 500px;
+}
+
 .box-tile {
     height: 100px;
     position: relative;
@@ -30,10 +39,6 @@ h1 {
     
 }
 
-.left-menu{
-    width:180px ;
-    
-}
 .btn{
     margin: 5px;
     position: relative;

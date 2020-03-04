@@ -4,8 +4,6 @@
     position: relative;
     top: 10px;
     align-items: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid red;
     
 }
 
@@ -22,5 +20,4 @@
     height: 300px;
     padding: 20px;
     margin: 50px auto;
-    border: 2px solid black;
 }

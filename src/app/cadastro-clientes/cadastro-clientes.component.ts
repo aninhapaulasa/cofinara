@@ -54,4 +54,7 @@ export class CadastroClientesComponent implements OnInit {
       }
     }, 200);
   }
+  if (cpfDigitado) {
+    this.router.navigate(['acesso-negado']);
+  }
 }

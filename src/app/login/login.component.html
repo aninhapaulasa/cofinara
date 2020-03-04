@@ -1,7 +1,7 @@
 
-<div class="col-md-12 fundo" align="center"> 
+<div class="col-md-12 fundo" align="center">
   <label class="form-check-label">Acesse sua conta</label>
-  <input class="form-control" type="text" name="cpf" size="14" maxlength="14" placeholder="Digite seu CPF">
- <a href="../home-logada/"><button type="submit" class="btn btn-primary acessar-conta" >Acessar</button></a>
-      
+  <input class="form-control cpf-mask" type="text"  name="cpf" size="14" maxlength="14" placeholder="Digite seu CPF">
+  <input class="form-control" type="date" name="dt-nscto" size="9" maxlength="14">
+ <button class="btn btn-outline-dark" (click)="gotoLogada()">Acessar</button>
 </div>

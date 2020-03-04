@@ -27,6 +27,7 @@ export class HeaderComponent implements OnInit {
     this.formLogin = this.fb.group({
       cpf: ['']
     });
+    
   }
   // regexp
   onlynumber(evt) {
@@ -65,5 +66,9 @@ export class HeaderComponent implements OnInit {
   gotoCadastroClientes() {
     this.router.navigate(['cadastro-clientes']);
    }
+
+  goLogin() {
+    this.router.navigate(['login']);
+  }
 
 }
