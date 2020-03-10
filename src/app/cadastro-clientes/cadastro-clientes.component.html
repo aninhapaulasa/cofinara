@@ -1,32 +1,101 @@
 <div class="container" align="center">
   <div class="row box-cadastro">
     <div class="col-12">
-      <h3 class="text-center">Você está a um passo de criar sua conta</h3>
+      <div class="titulo-cad">
+        <h3 class="text-center">CADASTRO</h3>
+      </div>
+      
       <form class="mt-5" (ngSubmit)='cadastro()' [formGroup]='formCadastro'>
-        <div class="form-group">
-          <input type="text" class="form-control cadastro" placeholder="Nome" formControlName='nome'>
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control cadastro" placeholder="CPF" formControlName='cpf' maxlength="14" >
-        </div>
-        <div class="form-group">
-          <input type="date" class="form-control cadastro" placeholder="Data Nascimento" formControlName='dtNscto' maxlength=10>
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control cadastro" placeholder="E-mail" formControlName='email'>
-        </div>
-        
-        <div class="form-group">
-          <input type="tel" class="form-control cadastro" placeholder="Telefone" formControlName='telefone'
-            maxlength="15">
-        </div>
-        <div class="form-group">
-          <input type="text" class="form-control cadastro" placeholder="Endereço" formControlName='endereco'>
-        </div>
-        <button type="submit" class="btn btn-outline-dark" >Cadastrar</button>
-        <button type="button" class="btn btn-outline-dark" onclick="history.back(-1)">Cancelar</button>
-        <!-- <img src="../../../node_modules/jquery-mask-plugin/dist/jquery.mask.min.js" alt="">-->
-      </form> 
+        <fieldset>
+          <legend>Informações</legend>
+          <table cellspacing="10">
+            <div>
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label>CNPJ:</label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="cnpj" size="14" maxlength="11">
+                </div>
+
+              </div>
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label for="nome">Nome Fantasia: </label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="nomeFantasia">
+                </div>
+
+              </div>
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label for="razaoSocial">Razão Social: </label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="razaoSocial">
+                </div>
+              </div>
+              <br>
+            </div>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>Endereço</legend>
+          <table cellspacing="10">
+            <div>
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label for="rua">Rua:</label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="rua">
+                </div>
+              </div>
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label for="numero">Numero:</label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="numero" size="4">
+                </div>
+              </div>
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label for="bairro">Bairro: </label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="bairro">
+                </div>
+              </div>
+
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label for="cidade">Cidade: </label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="cidade">
+                </div>
+              </div>
+              <div style="text-align: right;" class="row">
+                <div class="col-6">
+                  <label for="cep">CEP: </label>
+                </div>
+                <div class="col-6">
+                  <input class="form-control cadastro" type="text" name="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3"
+                    maxlength="3">
+                </div>
+              </div>
+            </div>
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>Contatos</legend>
+        </fieldset>
+        <br />
+        <button type="submit" class="btn btn-outline-primary" (click)="toLogin()">Cadastrar</button>
+      </form>
+
     </div>
   </div>
 </div>
