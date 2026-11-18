@@ -15,11 +15,13 @@ export class HomeLogadaComponent implements OnInit {
 
   ngOnInit() {
     this.getCadastro = JSON.parse(localStorage.getItem('cadastro'));
-    this.nameCliente = this.getCadastro['nome'];
-    this.cpfCliente = this.getCadastro['cpf'];
-    this.email = this.getCadastro['email'];
-    this.telefone = this.getCadastro['telefone'];
-    this.endereco = this.getCadastro['endereco'];
+    if (this.getCadastro) {
+      this.nameCliente = this.getCadastro['nome'];
+      this.cpfCliente = this.getCadastro['cpf'];
+      this.email = this.getCadastro['email'];
+      this.telefone = this.getCadastro['telefone'];
+      this.endereco = this.getCadastro['endereco'];
+    }
     console.log(this.cpfCliente);
     console.log(this.nameCliente);
     console.log(this.email);

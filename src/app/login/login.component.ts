@@ -43,9 +43,8 @@ export class LoginComponent implements OnInit {
 
   login() {
     this.getCadastro = JSON.parse(localStorage.getItem('cadastro'));
-    const cpfPersistido = this.getCadastro['cpf'];
     const cpfDigitado = this.formLogin.get('cpf').value;
-    if (cpfPersistido === cpfDigitado) {
+    if (this.getCadastro && this.getCadastro['cpf'] === cpfDigitado) {
       this.router.navigate(['home-logada']);
     } else {
       this.openDialog();
